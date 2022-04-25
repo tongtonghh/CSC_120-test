@@ -1,10 +1,10 @@
+board = ["-", "-", "-",
+         "-", "-", "-",
+         "-", "-", "-",]
+
 def display_board():
-    print("Printing board:")
-    print(board[0])
-    print(board[1])
-    print(board[2])
+    print(board[0] + "|" + board[1] + "|" + board[2])
+    print(board[3] + "|" + board[4] + "|" + board[5])
+    print(board[6] + "|" + board[7] + "|" + board[8])
 
-
-if __name__ == "__main__":
-    board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
-    display_board()
+display_board()
